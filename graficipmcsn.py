@@ -28,9 +28,7 @@ pathTransiente3= "/content/transiente303.csv"
 pathTransiente4= "/content/transiente304.csv"
 pathTransiente5= "/content/transiente305.csv"
 
-import csv
-import matplotlib.pyplot as plt
-from google.colab import files
+
 
 
 theoricWait = [0.500016, 14, 32, 14, 14, 22, 27, 32, 4.016667, 4.016667, 4.016667]
@@ -386,9 +384,7 @@ def grafico_transitorio(path1, path2, path3, path4, path5):
 
 grafico_transitorio(pathTransiente1, pathTransiente2, pathTransiente3, pathTransiente4, pathTransiente5)
 
-import csv
-import matplotlib.pyplot as plt
-from google.colab import files
+
 
 
 theoricWait = [0.500016, 14, 32, 14, 14, 22, 27, 32, 4.016667, 4.016667, 4.016667]
